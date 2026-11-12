@@ -1,6 +1,6 @@
 # Feature Spec — FEAT-001 Página inicial do portfólio
 
-**Status:** implementação local criada; conteúdo pessoal e publicação pendentes.
+**Status:** publicada em GitHub Pages; os projetos estão ligados a repositórios públicos. Personalização biográfica e testes visuais ainda pendentes.
 
 ## Objetivo
 
@@ -21,3 +21,4 @@ RF-001, RF-002, RF-003, RF-004, RF-005, RF-006; RNF-001, RNF-002, RNF-003, RNF-0
 ## Testes planejados
 
 T-001 carregamento; T-002 navegação; T-003 viewport de 390 px; T-004 perfil externo; T-005 navegação por teclado e legibilidade. Resultados não registrados aqui: preencher em `docs/quality-gates.md` somente após execução.
+

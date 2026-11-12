@@ -1,7 +1,7 @@
 # Testes e Quality Gates — FEAT-001
 
 **Execução:** 12/11/2026.  
-**Resultado estático:** 9 verificações aprovadas, 0 reprovadas. O relatório está em `evidence/static-checks.json`.
+**Resultado estático:** 10 verificações aprovadas, 0 reprovadas. O relatório está em `evidence/static-checks.json`.
 
 A verificação foi feita no código-fonte e com execução isolada do JavaScript usando um DOM simulado. Ela não substitui a navegação visual no navegador. A tentativa de abrir a página local no navegador foi bloqueada pela política de segurança; portanto, os testes manuais de interface abaixo continuam pendentes.
 
@@ -20,12 +20,12 @@ A verificação foi feita no código-fonte e com execução isolada do JavaScrip
 
 - Cinco seções e navegação com destinos existentes: **Aprovado por inspeção estática**
 - Dashboard da atividade incluído na apresentação, com métricas rotuladas e pendências explícitas: **Aprovado por inspeção estática**
-- Dois cards de projeto: **Aprovado como estrutura; conteúdo real pendente**
+- Dois projetos reais com links para os repositórios: **Aprovado após conferência dos READMEs e arquivos públicos**
 - Breakpoint móvel e preferência por movimento reduzido no CSS: **Aprovado por inspeção estática; teste visual de 390 px pendente**
 - Link externo configurado com segurança: **Aprovado por inspeção estática; perfil de destino pendente de confirmação**
 - Link de salto e estilo de foco visível: **Aprovado por inspeção estática; teste por teclado pendente**
 - Biografia, área de interesse e competências pessoais revisadas: **Pendente do aluno**
-- Dois projetos acadêmicos reais com descrições verificadas: **Pendente do aluno**
+- Dois projetos reais com descrições baseadas em fontes públicas: **Aprovado**
 - Testes T-001 a T-005 executados visualmente e capturas reais salvas: **Pendente**
 - GitHub Pages publicado e URL copiada de Settings > Pages: **Pendente**
 - Rastreabilidade, evidências e Quality Gates no Engineering Dashboard: **Pendente**
@@ -33,7 +33,8 @@ A verificação foi feita no código-fonte e com execução isolada do JavaScrip
 
 ## Resultado
 
-Os checks estáticos passaram (9/9). O gate de publicação e a aceitação integral da FEAT-001 permanecem **pendentes** até a personalização, testes de interface, evidências e publicação. Não declarar a atividade integralmente concluída antes dessas etapas.
+Os checks estáticos passaram (10/10). O gate de publicação e a aceitação integral da FEAT-001 permanecem **pendentes** até a personalização, testes de interface, evidências e publicação. Não declarar a atividade integralmente concluída antes dessas etapas.
+
 
 
 
