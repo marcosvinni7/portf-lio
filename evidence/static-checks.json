@@ -1,0 +1,55 @@
+{
+  "executedAt": "2026-11-12",
+  "method": "Verificações estáticas de HTML/CSS e execução isolada do script.js com DOM simulado; não substitui navegação visual no navegador.",
+  "results": [
+    {
+      "id": "S-001",
+      "status": "PASS",
+      "description": "Documento HTML tem idioma, título e viewport"
+    },
+    {
+      "id": "S-002",
+      "status": "PASS",
+      "description": "As cinco seções estão presentes e cada link interno aponta para um ID"
+    },
+    {
+      "id": "S-003",
+      "status": "PASS",
+      "description": "Há pelo menos dois cards de projeto"
+    },
+    {
+      "id": "S-004",
+      "status": "PASS",
+      "description": "Link externo do GitHub está configurado com HTTPS, nova aba e proteção noopener/noreferrer"
+    },
+    {
+      "id": "S-005",
+      "status": "PASS",
+      "description": "CSS contém breakpoint móvel e preferência de movimento reduzido"
+    },
+    {
+      "id": "S-006",
+      "status": "PASS",
+      "description": "A página tem link de salto e foco visível definido no CSS"
+    },
+    {
+      "id": "S-007",
+      "status": "PASS",
+      "description": "Script atualiza o ano do rodapé sem erro com um elemento-alvo"
+    },
+    {
+      "id": "S-008",
+      "status": "PASS",
+      "description": "Documentação SPECTION e critérios estão presentes"
+    },
+    {
+      "id": "S-009",
+      "status": "PASS",
+      "description": "Dashboard está no menu e mostra métricas com estados identificados"
+    }
+  ],
+  "summary": {
+    "passed": 9,
+    "failed": 0
+  }
+}
